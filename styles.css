@@ -1,0 +1,115 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Times, sans-serif;
+    background-color: #d1e0e0;
+    margin: 20px;
+}
+
+/* Navbar */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #f0f0f0;
+    border-bottom: 1px solid #000;
+    margin-bottom: 20px;
+}
+
+.navbar-left {
+    display: flex;
+    align-items: center;
+}
+
+.logo a {
+    font-size: 24px;
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+    margin-right: 20px;
+}
+
+.search-bar {
+    padding: 8px;
+    border: 1px solid #000;
+}
+
+.navbar-right button {
+    font-family: Times, serif;
+    padding: 8px 12px;
+    background-color: #f0f0f0;
+    border: 1px solid #000;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+/* Freelancer Options */
+.freelancer-options {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin: 20px 0;
+}
+
+.freelancer-options button {
+    font-family: Times, serif;
+    padding: 10px 20px;
+    background-color: #f0f0f0;
+    border: 1px solid #000;
+    cursor: pointer;
+}
+
+/* Recommendations Section */
+.recommendations {
+    background-color: #e0f7fa;
+    padding: 20px;
+    border: 1px solid #000;
+    margin-bottom: 20px;
+}
+
+.recommendations h2 {
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+.services-container {
+    display: flex;
+    gap: 10px;
+    overflow-x: auto;
+    padding-bottom: 10px;
+}
+
+.service-item {
+    width: 150px;
+    height: 100px;
+    background-color: #ffffff;
+    border: 1px solid #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+}
+
+/* Footer */
+.footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #f0f0f0;
+    border-top: 1px solid #000;
+}
+
+.footer p {
+    margin-bottom: 10px;
+}
+
+.social-links a {
+    text-decoration: none;
+    color: black;
+    margin: 0 5px;
+}
